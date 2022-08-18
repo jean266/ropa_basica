@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="build/css/app.css" as="style">
+  <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body class="contenedor">
+  
+  <div class="imagen_logo">
+    <img src="build/img/logo.svg" alt="icono logo">
+  </div>
+  
+  <div class="imagen_hero">
+    <picture>
+      <source srcset="build/img/hero-mobile.jpg" type="image/jpg" media="(max-width: 768px)">
+      <source srcset="build/img/hero-desktop.jpg" type="image/jpg" media="(min-width: 768px)">
+      <img src="build/img/hero-mobile.jpg" alt="imagen hero">
+    </picture>
+  </div>
+
+  <main class="contenedor_sm">
+
+    <h1 class="titulo"><span>We're </span>coming soon</h1>
+
+    <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date
+      with announcements and our launch deals.</p>
+
+    <div class="input_email">
+
+      <div class="campo">
+        <input type="email" id="email" placeholder="Email Address">
+
+        <img class="ocultar" src="build/img/icon-error.svg" alt="icono error">
+
+      </div>
+      
+      <div id="icono_flecha" class="icono_flecha">
+        <img src="build/img/icon-arrow.svg" alt="icono de flecha">
+      </div>
+      
+    </div>
+
+  </main>
+
+  <script src="build/js/app.js"></script>
+</body>
+
+</html>
