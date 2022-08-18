@@ -37,8 +37,8 @@ Los usuarios deben ser capaces de:
 
 ### Enlaces
 
-- URL de la solución: [Repositorio GitHub]()
-- URL del sitio en vivo: [Sitio en Netlify]()
+- URL de la solución: [Repositorio GitHub](https://github.com/jean266/ropa_basica.git)
+- URL del sitio en vivo: [Sitio en Netlify](https://silver-twilight-4307c5.netlify.app/)
 
 ## Mi proceso
 
